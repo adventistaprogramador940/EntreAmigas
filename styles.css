@@ -217,12 +217,12 @@ li {
 
 #picada-1 {
     border-radius: 15px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 #picada-2 {
 
     border-radius: 15px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .galeria {
     margin: 50px auto;
@@ -252,4 +252,10 @@ img {
     height: auto;
 display: block;
 max-width: 455px;
+    margin: 0 auto;
+}
+@media (max-width:768px) {
+    .galeria, .galeria-2 {
+        padding: 20px;
+    }
 }
