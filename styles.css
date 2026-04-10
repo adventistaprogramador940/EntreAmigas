@@ -211,6 +211,10 @@ li {
     align-items: center;
     justify-content: center;
 }
+ #picada-barquito-foto {display: block;
+    margin: 0px auto;
+}
+
 #picada-1 {
     border-radius: 15px;
     margin-left: 20px;
@@ -243,4 +247,9 @@ li {
     gap: 30px;
     flex-wrap: wrap;
 }
-
+img {
+    width: 100%;
+    height: auto;
+display: block;
+max-width: 455px;
+}
